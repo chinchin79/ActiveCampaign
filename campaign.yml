@@ -1,0 +1,55 @@
+
+url: https://lisandronavarra.api-us1.com/admin
+token: 7565d55eb2418ac6f6c42b3b6cdbdb170fa8577fa5405f120793fb341f292f76b7286ce6
+
+list:
+  name: Lisandro List
+  sender_name: Lisandro Navarra
+  sender_addr1: 123 Main Street
+  sender_city: Chicago
+  sender_zip: 60654
+  sender_country: USA
+
+subscribers:
+  - email: entity1@gmail.com
+    first_name: Johnny
+    last_name': Manzanilla
+    p[1]: list_id
+    status[1]: 1
+  - email: entity2@gmail.com
+    first_name: Steve
+    last_name: Holztmann
+    p[1]: list_id,
+    status[1]: 1
+  - email: entity3@gmail.com
+    first_name: Jose
+    last_name: Perez
+    p[1]: list_id
+    status[1]': 1
+
+message:
+  format: mime
+  subject: Test Campaign Message
+  fromemail: myemail@example.com
+  fromname: Lisandro Navarra
+  reply2: myemail2@example.com
+  priority: 3
+  charset: utf-8
+  encoding: quoted-printable
+  htmlconstructor: external
+  htmlfetch: http://example.com
+  htmlfetchwhen: send
+  textconstructor: external
+  textgetch: http://example.com
+  textfetchwhen: send
+  p[1]: list_id
+
+campaign:
+  type: single
+  name: Lisandro's Campaign
+  sdate: send_timestamp
+  status: 1
+  public: 1
+  tracklinks: all
+  trackreads: 1
+  htmlunsub: 1
