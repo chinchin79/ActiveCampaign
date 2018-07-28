@@ -1,6 +1,6 @@
 
-url: https://lisandronavarra.api-us1.com/admin
-token: 7565d55eb2418ac6f6c42b3b6cdbdb170fa8577fa5405f120793fb341f292f76b7286ce6
+url: https://yourname.api-us1.com/admin
+token: yourtoken
 
 list:
   name: Lisandro List
