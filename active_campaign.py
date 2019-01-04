@@ -101,7 +101,7 @@ def run_simulation(config):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Cashier register program')
+    parser = argparse.ArgumentParser(description='AC Campaign Simulation')
     parser.add_argument('-t', '--test', help='Test the API connection only', required=False, default=False)
     parser.add_argument('-c', '--config', help='YAML configuration file for campaign', required=True, type=str)
     args = parser.parse_args()
